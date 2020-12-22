@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const validate = values => {
     console.log(values)
@@ -67,7 +67,7 @@ class Login extends React.Component {
                     {errors.Mail && <p>{errors.Password}</p>}
                     <br />
                     <br />
-                    <button type='submit'>Login</button>
+                    <button className='btn btn-primary' type='submit'>Login</button>
                 </form>
             </div>
         )
