@@ -54,8 +54,10 @@ class Login extends React.Component {
                         className='input'
                         name='Mail'
                         onChange={this.handleChange}
+                        id='mail'
                     />
-                    {errors.Mail &&  <label className="error">{errors.Mail}</label>}
+                    <br />
+                    {errors.Mail &&  <label for='mail' className="error">{errors.Mail}</label>}
                     <br />
 
                     <h3>Password</h3>
@@ -63,8 +65,9 @@ class Login extends React.Component {
                         className='input'
                         name='Password'
                         onChange={this.handleChange}
+                        id='password'
                     />
-                    {errors.Mail && <p>{errors.Password}</p>}
+                    {errors.Mail && <label for='password'>{errors.Password}</label>}
                     <br />
                     <br />
                     <button className='btn btn-primary' type='submit'>Login</button>
