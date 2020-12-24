@@ -67,6 +67,7 @@ class Login extends React.Component {
                         onChange={this.handleChange}
                         id='password'
                     />
+                    <br />
                     {errors.Mail && <label for='password'>{errors.Password}</label>}
                     <br />
                     <br />
