@@ -22,7 +22,7 @@ class Login extends React.Component {
             Password: '',
 
             errors: {}
-        }
+        } 
 
         this.handleChange = this.handleChange.bind(this)
         this.handleSumbit = this.handleSumbit.bind(this)
