@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 //import Films from './components/films'
-import Login from './components/login'
+//import Login from './components/login'
+//import App from './App'
+import Card from './components/card'
 
-const container = document.getElementById('root')
+const container =document.getElementById('root')
 
-ReactDOM.render(<Login />,container)
+ReactDOM.render(<Card />,container)
